@@ -39,4 +39,8 @@ for (var i = 0; i < quiz.length; i++) {
 
 // ゲームの結果を表示する
 console.log(quiz.length + "問中、" + count + "問正解でした！");
-document.write(your_lose);
+if (!(your_lose.length===0)){
+  for (var j = 0; j < your_lose.length; j++) {
+    document.write(your_lose[j]+"<br>");
+}
+}
