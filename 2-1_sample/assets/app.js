@@ -2,7 +2,9 @@
   'use strict';
 
 $(function() {
-  $("h1").text("N高のみなさん、こんにちは！");
+  $("#btn").click(function() {
+    $("h1").text("N高のみなさん、こんにちは！");
+  });
 });
 
 })();
