@@ -8,6 +8,6 @@ $(function(){
     // 指定しているサムネイルにselectedクラスを付ける
     $(this).addClass("selected");
     // aタグのリンクを無効にする
-    return false;
+    return false;// へー
   })
 })
