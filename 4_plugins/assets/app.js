@@ -3,8 +3,8 @@ $(function(){
     dots: true
   });
 
-    $(".material").rippleria();
-    $(".material").click(function(){
+    $("#material").rippleria();
+    $("#material").click(function(){
       return false;
     })
   
