@@ -10,4 +10,6 @@ $(function () {
   })
   //文字数オーバー
   $('.js-max-char-warning').maxCharWarning();
+  //ツールチップ
+  $('.tooltip').tooltipster();
 });
