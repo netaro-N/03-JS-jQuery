@@ -1,4 +1,6 @@
 $(function () {
+  //ナビゲーション
+  $('ul.sf-menu').superfish();
   //カルーセル
   $(".pictures").slick({
     dots: true

@@ -2,6 +2,10 @@ body{
   background: #000561;
 }
 
+.imagebox{
+  clear: both;
+}
+
 .pictures{
   width: 250px;
   margin: auto;
