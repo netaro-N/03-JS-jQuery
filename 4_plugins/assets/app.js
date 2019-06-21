@@ -12,4 +12,7 @@ $(function () {
   $('.js-max-char-warning').maxCharWarning();
   //ツールチップ
   $('.tooltip').tooltipster();
+  //SVGアニメ
+  var $svg = $('svg').drawsvg();
+  $svg.drawsvg('animate');
 });
