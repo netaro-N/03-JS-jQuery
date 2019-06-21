@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,35 +24,39 @@
   <script src="assets/jquery.drawsvg.min.js"></script>
   <script src="assets/app.js"></script>
 </head>
+
 <body>
   <header>
     <ul class="sf-menu">
-        <li>
-          <a href="#">menu item</a>
-          <ul>
-            <li><a href="#">menu item</a></li>
-            <li><a href="#">menu item</a></li>
-            <li>
-              <a href="#">menu item</a>
-              <ul>
-                <li><a href="#">menu item</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#">menu item</a></li>
-        <li><a href="#">menu item</a></li>
-        <li><a href="#">menu item</a></li>
-        <li><a href="#">menu item</a></li>
-      </ul>
-    </header>
+      <li>
+        <a href="#">menu item</a>
+        <ul>
+          <li><a href="#">menu item</a></li>
+          <li><a href="#">menu item</a></li>
+          <li>
+            <a href="#">menu item</a>
+            <ul>
+              <li><a href="#">menu item</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">menu item</a></li>
+      <li><a href="#">menu item</a></li>
+      <li><a href="#">menu item</a></li>
+      <li><a href="#">menu item</a></li>
+    </ul>
+  </header>
 
 
-    <main>
-      <div class="imagebox">
-    <a href="assets/images/pic1.jpg" data-lightbox="images"><img src="assets/images/pic1.jpg" width="100" height="100"></a>
-    <a href="assets/images/pic2.jpg" data-lightbox="images"><img src="assets/images/pic2.jpg" width="100" height="100"></a>
-    <a href="assets/images/pic3.jpg" data-lightbox="images"><img src="assets/images/pic3.jpg" width="100" height="100"></a>
+  <main>
+    <div class="imagebox">
+      <a href="assets/images/pic1.jpg" data-lightbox="images"><img src="assets/images/pic1.jpg" width="100"
+          height="100"></a>
+      <a href="assets/images/pic2.jpg" data-lightbox="images"><img src="assets/images/pic2.jpg" width="100"
+          height="100"></a>
+      <a href="assets/images/pic3.jpg" data-lightbox="images"><img src="assets/images/pic3.jpg" width="100"
+          height="100"></a>
     </div>
     <div class="pictures">
       <img src="assets/images/pic1.jpg" width="250" height="250">
@@ -59,31 +64,27 @@
       <img src="assets/images/pic3.jpg" width="250" height="250">
     </div>
     <div class="text-center">
-        <a href="#" id="material" style="display: inline-block;"><img src="assets/images/pic1.jpg" width="250" height="250"></a>
+      <a href="#" id="material" style="display: inline-block;"><img src="assets/images/pic1.jpg" width="250"
+          height="250"></a>
     </div>
     <div>
-        <p>10文字以内で入力してください</p>
-        <input 
-          class ="js-max-char-warning" 
-          placeholder="名前を入力してください" 
-          type="text" 
-          data-max-length-warning="文字数をオーバーしています" 
-          data-max-length="10" 
-          data-max-length-warning-container="name"
-        /> 
-        <span class="name"></span><!-- Display warning message here -->
+      <p>10文字以内で入力してください</p>
+      <input class="js-max-char-warning" placeholder="名前を入力してください" type="text" data-max-length-warning="文字数をオーバーしています"
+        data-max-length="10" data-max-length-warning-container="name" />
+      <span class="name"></span><!-- Display warning message here -->
     </div>
     <div class="box">
-    <img src="assets/images/pic1.jpg" class="tooltip" width="250" height="250"title="これはさかなです" />
-  </div>
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-  y="0px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve" width="250">
-    <g stroke="#FFF" stroke-width="1" fill="none">
-      <path class="st0" d="M64,96h32V0H64V96z M0,96h32V0H0V96z"/>
-      <path class="st1" d="M64,42.6L32,11v42l32,31.9V42.6z"/>
-    </g>
-  </svg>
+      <img src="assets/images/pic1.jpg" class="tooltip" width="250" height="250" title="これはさかなです" />
+    </div>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve" width="250">
+      <g stroke="#FFF" stroke-width="1" fill="none">
+        <path class="st0" d="M64,96h32V0H64V96z M0,96h32V0H0V96z" />
+        <path class="st1" d="M64,42.6L32,11v42l32,31.9V42.6z" />
+      </g>
+    </svg>
 
-</main>
+  </main>
 </body>
+
 </html>
