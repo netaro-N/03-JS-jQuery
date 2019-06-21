@@ -14,6 +14,7 @@
   <script src="assets/dist/js/lightbox.min.js"></script>
   <script src="assets/slick/slick.min.js"></script>
   <script src="assets/jquery.rippleria.min.js"></script>
+  <script src="assets/jquery.maxcharwarning.min.js"></script>
   <script src="assets/app.js"></script>
 </head>
 <body>
@@ -27,6 +28,18 @@
     </div>
     <div class="text-center">
         <a href="#" id="material" style="display: inline-block;"><img src="assets/images/pic1.jpg" width="250" height="250"></a>
-      </div>
+    </div>
+    <div>
+        <p>10文字以内で入力してください</p>
+        <input 
+          class ="js-max-char-warning" 
+          placeholder="名前を入力してください" 
+          type="text" 
+          data-max-length-warning="文字数をオーバーしています" 
+          data-max-length="10" 
+          data-max-length-warning-container="name"
+        /> 
+        <span class="name"></span><!-- Display warning message here -->
+    </div>
 </body>
 </html>
